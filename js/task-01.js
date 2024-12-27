@@ -1,1 +1,2 @@
-const item = document.querySelector('.item')
+const item = document.querySelector('.item');
+console.dir(item);
