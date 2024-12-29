@@ -26,12 +26,12 @@ console.log(img);
 // img.setAttribute("scr",'https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 // img.setAttribute("scr",'https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 // img.setAttribute('https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+// img.setAttribute("alt", 'White and Black Long Fur Cat');
 
 
 
-img.setAttribute("alt", 'White and Black Long Fur Cat');
 console.log(img.attributes); 
-console.log(img);
+
 console.log(img.hasAttribute("src")); 
 
 
