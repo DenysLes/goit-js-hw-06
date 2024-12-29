@@ -23,15 +23,17 @@ button {
   cursor: pointer;
 }
 
-/* .list-item{
+.list-item{
    width:320px;
   height: 240px; 
+  list-style: none;
 }
 
-.list-img {
+/* .list-img {
     width: 320px;
     height: 240px;
 } */
+
 
 ul{
   margin-top: 0;
@@ -39,12 +41,12 @@ ul{
   margin-left: 0;
 }
 
-img{
+/* img{
   display:block;
   max-width: 100%;
-  width: 300px;
+  width: 350px;
   height: auto;
-}
+} */
 
 .list {
   list-style: none;
