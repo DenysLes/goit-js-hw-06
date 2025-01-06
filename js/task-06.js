@@ -1,19 +1,19 @@
-const inputEl = document.querySelector('#validation-input');
-console.log(inputEl);
-inputEl.addEventListener('blur', onBlurBorderColor);
+// const inputEl = document.querySelector('#validation-input');
+// console.log(inputEl);
+// inputEl.addEventListener('blur', onBlurBorderColor);
 
-function onBlurBorderColor(event) {
-  const inputDataLength = Number(inputEl.dataset.length);
-  const inputValueLength = Number(inputEl.value.length);
+// function onBlurBorderColor(event) {
+//   const inputDataLength = Number(inputEl.dataset.length);
+//   const inputValueLength = Number(inputEl.value.length);
 
-  if (inputValueLength === inputDataLength) {
-      inputEl.classList.add('valid');
-      inputEl.classList.remove('invalid');
-  } else {
-      inputEl.classList.remove('valid');
-      inputEl.classList.add('invalid');
-    }
-};
+//   if (inputValueLength === inputDataLength) {
+//       inputEl.classList.add('valid');
+//       inputEl.classList.remove('invalid');
+//   } else {
+//       inputEl.classList.remove('valid');
+//       inputEl.classList.add('invalid');
+//     }
+// };
 
 
 // const textInput = document.querySelector('#validation-input')
@@ -32,3 +32,4 @@ function onBlurBorderColor(event) {
 // 		textInput.classList.add('invalid')
 // 	}
 // })
+
