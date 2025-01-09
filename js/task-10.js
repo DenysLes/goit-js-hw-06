@@ -3,20 +3,44 @@
 //     .toString(16)
 //     .padStart(6, 0)}`;
 // }
-const divControls = document.querySelector('#controls')
-console.log(divControls);
-const inputNumber = document.querySelector('[type="number"]');
-console.log(inputNumber);
-const btnCreate = document.querySelector('button[data-create]');
-const btnDestroy = document.querySelector('button[data-destroy]');
-const divBoxesEl = document.getElementById('boxes')
-console.log(divBoxesEl);
+// const divControls = document.querySelector('#controls')
+
+// const inputNumber = document.querySelector('[type="number"]');
+
+// const btnCreate = document.querySelector('button[data-create]');
+// const btnDestroy = document.querySelector('button[data-destroy]');
+// const divBoxesEl = document.getElementById('boxes')
 
 
-function createBoxes(amount) {
-  divBoxesEl = []
-  divBoxesEl.push.amount.value
-}
+// const createBoxes = amount => {
+// 	const elementsToAdd = []
+//   for (let i = 0; i < amount; i++) {
+//     const div = document.createElement('div')
+// 		div.style.height = `${30 + 10 * i}px`
+// 		div.style.width = `${30 + 10 * i}px`
+// 		div.style.background = getRandomHexColor()
+//     elementsToAdd.push(div)
+//   }
+// 	return elementsToAdd
+// }
+// const destroyBoxes = () => {
+// 	divBoxesEl.innerHTML = ''
+// }
+
+// btnCreate.addEventListener('click', () => {
+// 	let boxesToAdd = createBoxes(inputNumber.value)
+// 	divBoxesEl.append(...boxesToAdd)
+// })
+
+// console.log(inputNumber.value)
+
+// btnDestroy.addEventListener('click', () => {
+// 	destroyBoxes.call()
+// })
+   
+
+
+
 
 
 
